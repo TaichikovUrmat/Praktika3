@@ -3,15 +3,12 @@ import java.util.Scanner;
 public class Seasons {
 
     int month;
-
     public Seasons(int month) {
-        this.month = month;
 
+        this.month = month;
     }
     public Seasons(){
-
     }
-
     public int Seasons() {
     Scanner scanner = new Scanner(System.in);
     int month = scanner.nextInt();
